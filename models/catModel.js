@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-// cats schema
+// cat schema 
 const catSchema = mongoose.Schema({
   name: { type: String, required: true },
   color: { type: String, required: true },
